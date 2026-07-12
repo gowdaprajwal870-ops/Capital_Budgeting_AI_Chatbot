@@ -1,10 +1,8 @@
 [
 
-[
-
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
-](https://colab.research.google.com/assets/colab-badge.svg)
+](https://colab.research.google.com/drive/1eoXglIrXYLfWVamViu7xwjtg9bRcvoqD?usp=sharing
 # Capital_budgeting_AI_chatbot
 AI-powered FP&amp;A chatbot that reads a real Excel capital budgeting model and answers financal what-if questions using LLM
 # FP&A AI Chatbot — Capital Budgeting Analysis
