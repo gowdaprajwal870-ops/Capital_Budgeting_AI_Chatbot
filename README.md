@@ -1,3 +1,4 @@
+**View full notebook:** [GitHub Gist](copy-of-chat-bot.ipynb)
 [
 
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
