@@ -78,3 +78,64 @@ explanations — not generic AI responses.
 ---
 
 ## How It Works
+
+User Question
+↓
+Groq API (Llama 3.3 70B) understands the question
+↓
+Python pulls real numbers from Excel model via openpyxl
+↓
+LLM generates analyst-grade explanation using model data
+↓
+Formatted financial answer
+---
+
+## Project Structure
+
+fpa-ai-chatbot/
+│
+├── FPA_Chatbot.ipynb          # Main Colab notebook
+├── capital budgeting.xlsx     # Excel financial model
+└── README.md                  # Project documentation
+---
+
+## Setup Instructions
+
+1. Clone this repository
+2. Upload `capital budgeting.xlsx` to your Colab file browser
+3. Get a free Groq API key at console.groq.com
+4. Open `FPA_Chatbot.ipynb` in Google Colab
+5. Run all cells top to bottom
+6. Call `fpa_chatbot("your question here")` to interact
+
+---
+
+## Sample Output
+===============================
+Q: Is this project worth investing in?
+A: Based on the model data, the project appears to be worth investing in.
+The NPV is €134,087,581, which is positive, indicating the project is
+expected to generate value for the company. The IRR of 15.35% is higher
+than the WACC of approximately 3.7%, suggesting that the project's returns
+are expected to exceed the cost of capital. Overall, the financial metrics
+suggest that this project is a viable investment opportunity.
+---
+
+## Skills Demonstrated
+
+- Financial modelling (NPV, IRR, WACC, DCF, sensitivity analysis)
+- Python programming (openpyxl, API integration, functions, data structures)
+- LLM API integration (Groq, prompt engineering, system context design)
+- FP&A thinking (scenario analysis, capital budgeting, investment appraisal)
+- End-to-end project building from financial model to AI-powered tool
+
+---
+
+## About
+
+Built as a portfolio project to demonstrate applied skills in corporate 
+finance, FP&A, and AI tooling — combining Excel financial modelling with 
+Python and LLM integration.
+
+*Developed by Prajwal Gowda — BFM Final Year, Guru Nanak Khalsa College, 
+Mumbai*
